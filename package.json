@@ -1,0 +1,21 @@
+{
+  "name": "segment-api",
+  "version": "1.0.0",
+  "description": "Segment API Wrapper",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Christoph Fey",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "curl-to-fetch": "^1.2.1",
+    "lodash": "^4.17.15"
+  },
+  "engines": {
+    "node": "8.10.0",
+    "npm": "5.6.0"
+  }
+}
