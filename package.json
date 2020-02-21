@@ -1,21 +1,39 @@
 {
-  "name": "segment-api",
-  "version": "1.0.0",
+  "name": "@perspective-software/segment-api",
+  "version": "1.0.1",
   "description": "Segment API Wrapper",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf ./docs",
+    "generate-docs": "npm run clean && node_modules/.bin/jsdoc -c jsdoc.json && git add -A ./docs",
+    "prepare": "npm run generate-docs"
   },
   "keywords": [],
-  "author": "Christoph Fey",
-  "license": "ISC",
+  "authors": [
+    "Christoph Fey <chris@perspective.co> (https://github.com/cfey)"
+  ],
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.0",
-    "curl-to-fetch": "^1.2.1",
     "lodash": "^4.17.15"
   },
   "engines": {
-    "node": "8.10.0",
-    "npm": "5.6.0"
-  }
+    "node": ">=8.10.0",
+    "npm": ">=5.6.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "braintree-jsdoc-template": "^3.3.0",
+    "jsdoc": "^3.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perspective-Software/segment-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Perspective-Software/segment-api/issues"
+  },
+  "homepage": "https://github.com/Perspective-Software/segment-api#readme"
 }

@@ -1,5 +1,11 @@
 # Segment Api
 
+## Install
+```
+    npm install @perspective-software/segment-api
+```
+
+
 ## Example
 
 ```javascript
