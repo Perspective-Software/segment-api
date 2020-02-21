@@ -2,7 +2,7 @@
 
 ## Install
 ```
-    npm install @perspective-software/segment-api
+npm install @perspective-software/segment-api
 ```
 
 
