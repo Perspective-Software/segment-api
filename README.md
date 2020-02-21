@@ -5,6 +5,9 @@
 npm install @perspective-software/segment-api
 ```
 
+## Docs
+Docs available at https://perspective-software.github.io/segment-api/docs
+
 
 ## Example
 
